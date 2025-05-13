@@ -1,0 +1,13 @@
+Redux(State Management Library) - A predictable state container for JS Apps. This is not a part of ReactJS. This is a library to maintain states in the JS apps. Redux is not mandatory to use in every React App, this is mainly used in large scale applications, but the application which are built using Redux can also be built without using Redux.
+
+There are 2 libraries offered by Redux.
+1. React-Redux - Older way of writing Redux
+2. Redux Toolkit(latest & standard) - New way of writing Redux, also called as RTK.
+
+Redux Toolkit was created to mainly address below issues
+1. Configuring a Redux store is too complicated
+2. Need to add a lot of packages to get Redux to do anything useful
+3. Redux requires too much boilerplate code.
+
+Redux store is a big javaScript object which is stored in a central place, any component can access this store.
+Slicing - we use slice to store related data in the redux store 
